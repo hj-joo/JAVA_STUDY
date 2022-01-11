@@ -1,4 +1,4 @@
-class Main {
+public class Baek_4_10172 {
     public static void main(String[] args) 	{
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

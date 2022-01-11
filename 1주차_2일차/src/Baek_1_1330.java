@@ -1,14 +1,16 @@
 import java.util.*;
-public class Bak_11_2588{
+public class Baek_1_1330{
     public static void main(String[] args) 	{
         Scanner scanner = new Scanner(System.in);
         int A,B;
         A = scanner.nextInt();
         B = scanner.nextInt();
-        System.out.println(A * (B%10));
-        System.out.println(A * ((B/10)%10));
-        System.out.println(A * (B/100));
-        System.out.println(A * B);
+        if (A > B)
+            System.out.println(">");
+        else if(A<B)
+            System.out.println("<");
+        else
+            System.out.println("==");
 
     }
 }

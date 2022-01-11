@@ -1,5 +1,5 @@
 import java.util.*;
-public class Bak_10_10430 {
+public class Baek_10_10430 {
     public static void main(String[] args) 	{
         Scanner scanner = new Scanner(System.in);
         int A,B,C;
